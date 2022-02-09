@@ -1,0 +1,80 @@
+//Rent
+.rent {
+  & {
+    margin-bottom: 26.2rem;
+  }
+
+  &__container {
+    padding-left: 6rem;
+  }
+
+  &__main {
+    margin-bottom: 5rem;
+  }
+
+  &__content {
+    margin-bottom: 10.6rem;
+  }
+
+  &__title {
+    font-size: 4.6rem;
+    font-weight: 800;
+    color: #333;
+  }
+
+  &__scooter {
+    max-width: 28.4rem;
+    position: relative;
+  }
+
+  &__info--pic {
+    position: relative;
+  }
+
+  &__img {
+    margin-bottom: 1.3rem;
+  }
+
+  &__subtitle {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 6rem;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 3.4rem;
+    left: 25rem;
+  }
+
+  &__video {
+    position: absolute;
+    top: 0;
+    left: 35rem;
+  }
+
+  &__preview {
+    width: 22.5rem;
+    height: 45rem;
+  }
+
+  &__btn {
+    width: 57.5rem;
+    height: 11.8rem;
+    line-height: 4.4rem;
+    margin-bottom: 5.5rem;
+    text-align: center;
+    background-color: #21201f;
+    border-radius: 3.5rem;
+    line-height: 2.4rem;
+    border: 0.06rem solid transparent;
+    padding: 2.5rem 4rem 3.1rem;
+  }
+
+  &__roll {
+    font-size: 3.3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+}

@@ -1,0 +1,68 @@
+//Scooter
+.scooter {
+  & {
+    margin-bottom: 8rem;
+  }
+
+  &__container {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 6.5rem;
+  }
+
+  &__img {
+    width: 57.5rem;
+    height: 37.3rem;
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 2.6rem;
+  }
+
+  &__subtitle {
+    font-size: 2.25rem;
+    font-weight: 900;
+    width: 34.25rem;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__svg {
+    position: relative;
+  }
+
+  &__position {
+    position: absolute;
+    top: 1.3rem;
+  }
+
+  &__news {
+    font-size: 4.6rem;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  &__moscow {
+    font-size: 4.6rem;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__and {
+    font-size: 4.6rem;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  &__krasnodar {
+    font-size: 4.6rem;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+  }
+}

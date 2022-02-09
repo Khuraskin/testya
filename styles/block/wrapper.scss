@@ -1,0 +1,11 @@
+//Wrapper
+.wrapper {
+  & {
+    background-color: rgb(255, 222, 64);
+    overflow: hidden;
+    min-width: 87.5rem;
+    display: flex;
+    padding-top: 8.1rem;
+    flex-direction: column;
+  }
+}

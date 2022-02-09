@@ -1,0 +1,128 @@
+//Ride
+.ride {
+  & {
+    margin-bottom: 35.6rem;
+  }
+
+  &__container {
+    background: #fff;
+    border-radius: 3.1rem;
+    padding: 3.5rem 0 16.5rem 5.8rem;
+    width: 63.3rem;
+    position: relative;
+  }
+
+  &__video {
+    position: absolute;
+    bottom: 79.3rem;
+    left: 23.7rem;
+  }
+
+  &__content {
+    display: none;
+  }
+
+  &__content--active {
+    display: block;
+  }
+
+  &__list--video {
+    width: 45.875rem;
+    height: 25.875rem;
+    border-radius: 2rem;
+    border: none;
+  }
+
+  &__dots {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.3rem;
+  }
+
+  &__dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 3.1rem;
+    background-color: grey;
+    margin-right: 0.6rem;
+    cursor: pointer;
+  }
+
+  &__dot--active {
+    background: #333;
+  }
+
+  &__info {
+    max-width: 22.6rem;
+    max-height: 100%;
+    margin-right: 5.8rem;
+    padding-bottom: 5.2rem;
+  }
+
+  &__info:last-child {
+    margin-right: 0;
+  }
+
+  &__one {
+    display: flex;
+  }
+
+  &__two {
+    display: flex;
+  }
+
+  &__three {
+    display: flex;
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #333;
+    padding: 3.8rem 0 2.1rem 0;
+  }
+
+  &__subtitle {
+    font-size: 2.4rem;
+    line-height: 100%;
+    color: #333;
+    font-weight: 800;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+  }
+  &__insurance {
+    background: #00ca50;
+    border-radius: 3.5rem;
+    width: 40rem;
+    height: 43.7rem;
+    position: absolute;
+    left: 27.5rem;
+  }
+
+  &__fon {
+    width: 29.6rem;
+    height: 29.6rem;
+    padding-left: 5.3rem;
+    padding-top: 5.6rem;
+  }
+
+  &__part--text {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 130%;
+    color: #fff;
+  }
+
+  &__part--link {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 130%;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

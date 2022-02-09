@@ -1,0 +1,101 @@
+//Dowload
+.download {
+  & {
+    background: #fff;
+    padding-top: 2.1rem;
+  }
+
+  &__container {
+    padding-left: 12.5rem;
+  }
+
+  &__search {
+    background: #fff;
+    max-width: 28.4rem;
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 800;
+    columns: #333;
+    margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 3rem;
+  }
+
+  &__input {
+    display: flex;
+    min-width: 122.5px;
+    height: 3rem;
+    line-height: 3rem;
+    position: relative;
+  }
+
+  &__plus {
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 800;
+    top: 0.12rem;
+    left: 0.3rem;
+  }
+
+  &__number {
+    width: 12.3rem;
+    font-weight: 400;
+    padding-left: 0.9rem;
+    font-size: 2rem;
+    border: 0.12rem solid;
+    outline: 0;
+    margin-right: 0.6rem;
+  }
+
+  &__number:focus {
+    border-color: #ffdf39;
+  }
+
+  &__btn {
+    background: #ffdf39;
+    min-width: 7.6rem;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.3rem;
+  }
+
+  &__link {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__color--black {
+    background: #333;
+    width: 34.8rem;
+    height: 11.2rem;
+    border-radius: 3.5rem 3.5rem 0 0;
+    position: relative;
+    margin-left: 23.2rem;
+  }
+
+  &__color--yellow {
+    background: #ffdf39;
+    width: 67.5rem;
+    height: 9.3rem;
+    border-radius: 3.5rem 3.5rem 0 0;
+    position: absolute;
+    top: 4.7rem;
+    right: 2.8rem;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 6.25rem;
+  }
+}
