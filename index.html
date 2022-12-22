@@ -24,9 +24,10 @@
             <div class="container">
                 <div class="scooter__container">
                     <div class="scooter__title">
-                        <img class="scooter__img" src="./img/orig.png" alt="scooter__title">
+                        <img class="scooter__img--one" src="./img/orig.png" alt="scooter__title">
+                        <img class="scooter__img--two" src="./img/orig_768.jpg" alt="scooter__img768">
                         <div class="scooter__subtitle">
-                            Скачайте приложение,чтобы арендовать ближайший электросамокат
+                            Скачайте приложение, чтобы арендовать ближайший электросамокат
                         </div>
                     </div>
                     <div class="btn btn__application">
@@ -34,13 +35,15 @@
                     </div>
                     <div class="scooter__item">
                         <div class="scooter__svg">
-                            <img class="scooter__line" src="./img/orig line.svg" alt="scooter__item"></img>
+                            <img class="scooter__line--one" src="./img/orig line.svg" alt="scooter__line--one"></img>
+                            <img class="scooter__line--two" src="./img/orig__line__768.svg"
+                                alt="scooter__line--two"></img>
                             <div class="scooter__position">
                                 <div class="scooter__news">Пока только в
-                                    <a class="scooter__moscow" href="#">Москве</a>
+                                    <a class="scooter__city" href="#">Москве</a>
                                 </div>
                                 <div class="scooter__and">и
-                                    <a class="scooter__krasnodar" href="#">Краснодаре</a>
+                                    <a class="scooter__city" href="#">Краснодаре</a>
                                 </div>
                             </div>
                         </div>
@@ -48,6 +51,7 @@
                 </div>
             </div>
         </section>
+
         <section class="rent">
             <div class="container">
                 <div class="rent__container">
@@ -57,23 +61,37 @@
                     </div>
                     <div class="rent__content">
                         <div class="rent__scooter">
+                            <div class="rent__video--tablet">
+                                <video class="rent__preview--tablet" loop muted autoplay playsinline preload="auto">
+                                    <source
+                                        src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.mp4"
+                                        type="video/mp4">
+                                    <source
+                                        src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.webm"
+                                        type="video/webm">
+                                </video>
+                            </div>
                             <div class="rent__info">
                                 <img class="rent__img" src="./img/orig-scooter.svg" alt="rent__scooter"></img>
                                 <div class="rent__subtitle">
                                     В Яндекс Go нажмите кнопку Самокаты</div>
                             </div>
                             <div class="rent__info">
-                                <img class="rent__img" src="./img/orig_parking.svg " alt="rent__scooter"></img>
+                                <img class="rent__img rent__img--size" src="./img/orig_parking.svg "
+                                    alt="rent__scooter"></img>
                                 <div class="rent__subtitle">
                                     Найдите на карте ближайшую парковку</div>
                             </div>
                             <div class="rent__info rent__info--pic">
                                 <img class="rent__img" src="./img/orig_people.svg" alt="rent__scooter"></img>
-                                <div class="rent__subtitle">
+                                <div class="rent__subtitle rent__subtitle--width">
                                     Дойдите до самоката и отсканируйте QR-код на руле
                                 </div>
-                                <div class="rent__arrow">
-                                    <img class="rent__" src="./img/orig arrow.svg" alt="rent__arrow">
+                                <div class="rent__arrow--one">
+                                    <img class="rent__svg" src="./img/orig arrow.svg" alt="rent__arrow">
+                                </div>
+                                <div class="rent__arrow--two">
+                                    <img class="rent__svg--tablet" src="./img/orig arrow__768.svg" alt="svg--tablet">
                                 </div>
                             </div>
                             <div class="rent__video">
@@ -99,132 +117,132 @@
         </section>
         <secnion class="ride">
             <div class="container">
-                <div class="ride__container">
-                    <div class="ride__video">
-                        <div class="ride__content ride__content--active">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be12814-d4349e064a96e559/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be12814-d4349e064a96e559/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be1a0ee-d835336e9d859e4a/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be1a0ee-d835336e9d859e4a/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-43474-17a7be21d43-cfb3f6c623bf8b7b/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-43474-17a7be21d43-cfb3f6c623bf8b7b/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be31056-f283c899f4d444f0/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be35fa3-95150f9a730d87/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be35fa3-95150f9a730d87/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be3bc45-8adfd7acc40bb5f1/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be3bc45-8adfd7acc40bb5f1/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-38232-17a7be46e2e-4900b1d2d2696114/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-38232-17a7be46e2e-4900b1d2d2696114/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__content">
-                            <video class="ride__list--video" controls preload="auto" pip="false">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be4dec5-264e0ac54d3efdd0/720p.mp4"
-                                    type="video/mp4">
-                                <source
-                                    src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be4dec5-264e0ac54d3efdd0/720p.webm"
-                                    type="video/webm">
-                            </video>
-                        </div>
-                        <div class="ride__dots">
-                            <div class="ride__dot ride__dot--active"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                            <div class="ride__dot"></div>
-                        </div>
+                <div class="ride__video">
+                    <div class="ride__content ride__content--active">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.webm"
+                                type="video/webm">
+                        </video>
                     </div>
-                    <div class="ride__title">Катайтесь нежно</div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be12814-d4349e064a96e559/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be12814-d4349e064a96e559/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be1a0ee-d835336e9d859e4a/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be1a0ee-d835336e9d859e4a/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-43474-17a7be21d43-cfb3f6c623bf8b7b/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-43474-17a7be21d43-cfb3f6c623bf8b7b/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be31056-f283c899f4d444f0/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be35fa3-95150f9a730d87/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be35fa3-95150f9a730d87/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be3bc45-8adfd7acc40bb5f1/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be3bc45-8adfd7acc40bb5f1/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-38232-17a7be46e2e-4900b1d2d2696114/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-38232-17a7be46e2e-4900b1d2d2696114/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__content">
+                        <video class="ride__list--video" controls preload="auto" pip="false">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be4dec5-264e0ac54d3efdd0/720p.mp4"
+                                type="video/mp4">
+                            <source
+                                src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be4dec5-264e0ac54d3efdd0/720p.webm"
+                                type="video/webm">
+                        </video>
+                    </div>
+                    <div class="ride__dots">
+                        <div class="ride__dot ride__dot--active"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                        <div class="ride__dot"></div>
+                    </div>
+                </div>
+                <div class="ride__container">
                     <div class="ride__list">
-                        <div class="ride__one">
-                            <div class="ride__info">
+                        <div class="ride__title">Катайтесь нежно</div>
+                        <div class="ride__item">
+                            <div class="ride__info ride__info--activ">
                                 <div class="ride__img">
                                     <img class="ride__pic" src="./img/orig__one.svg" alt="ride__pic">
                                 </div>
                                 <div class="ride__subtitle">Самокат — только&nbsp;для&nbsp;вас</div>
                                 <div class="ride__text"> Кататься вдвоём на&nbsp;одном самокате правда опасно. </div>
                             </div>
-                            <div class="ride__info">
+                            <div class="ride__info ride__info--none">
                                 <div class="ride__img">
                                     <img class="ride__pic" src="./img/orig_helmet.svg" alt="ride__pic">
                                 </div>
@@ -233,15 +251,15 @@
                                     защита.</div>
                             </div>
                         </div>
-                        <div class="ride__two">
-                            <div class="ride__info">
+                        <div class="ride__item">
+                            <div class="ride__info ride__info--none">
                                 <div class="ride__img">
                                     <img class="ride__pic" src="./img/orig_bottle.svg" alt="ride__pic">
                                 </div>
                                 <div class="ride__subtitle">Катайтесь трезвыми</div>
                                 <div class="ride__text">Это правило справедливо для&nbsp;любого транспорта.</div>
                             </div>
-                            <div class="ride__info">
+                            <div class="ride__info ride__info--none">
                                 <div class="ride__img">
                                     <img class="ride__pic" src="./img/orig__scooter.svg" alt="ride__pic">
                                 </div>
@@ -249,15 +267,15 @@
                                 <div class="ride__text">То же с&nbsp;бордюрами и&nbsp;ступеньками.</div>
                             </div>
                         </div>
-                        <div class="ride__three">
-                            <div class="ride__info">
+                        <div class="ride__item">
+                            <div class="ride__info ride__info--none">
                                 <div class="ride__img">
                                     <img class="ride__pic" src="./img/orig_man.svg" alt="ride__pic">
                                 </div>
                                 <div class="ride__subtitle">Уступайте пешеходам</div>
                                 <div class="ride__text">Вы&nbsp;тоже один из&nbsp;них.</div>
                             </div>
-                            <div class="ride__info">
+                            <div class="ride__info ride__info--none">
                                 <div class="ride__img">
                                     <img class="ride__pic" src="./img/orig_18+.svg" alt="ride__pic">
                                 </div>
@@ -266,18 +284,28 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="ride__insurance">
-                        <div class="ride__fon">
-                            <img class="ride__heart" src="./img/orig_heart.svg" alt="ride__heart">
-                            <div class="ride__part--text">Во время катания действует
-                                <a class="ride__part--link" href="">базовое страхование</a>
-                                <div class="ride__part--text">жизни и здоровья на сумму до 100 000 ₽. А ещё в приложении
-                                    можно купить
-                                    <a class="ride__part--link" href="">расширенную страховку</a>
-                                </div>
-                                <div class="ride__part--text">с покрытием до 500 000 ₽ и страхованием имущества. Если в
-                                    поездке что-то произошло, сразу же пишите в поддержку.
+                        <div class="item__dots">
+                            <div class="item__dot item__dot--activ"></div>
+                            <div class="item__dot"></div>
+                            <div class="item__dot"></div>
+                            <div class="item__dot"></div>
+                            <div class="item__dot"></div>
+                            <div class="item__dot"></div>
+                        </div>
+                        <div class="ride__insurance">
+                            <div class="ride__fon">
+                                <img class="ride__heart" src="./img/orig_heart.svg" alt="ride__heart">
+                                <div class="ride__part--text">Во время катания действует
+                                    <a class="ride__part--link" href="">базовое страхование</a>
+                                    <div class="ride__part--text">жизни и здоровья на сумму до 100 000 ₽. А ещё в
+                                        приложении
+                                        можно купить
+                                        <a class="ride__part--link" href="">расширенную страховку</a>
+                                    </div>
+                                    <div class="ride__part--text">с покрытием до 500 000 ₽ и страхованием имущества.
+                                        Если в
+                                        поездке что-то произошло, сразу же пишите в поддержку.
+                                    </div>
                                 </div>
                             </div>
                         </div>
