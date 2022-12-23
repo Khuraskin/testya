@@ -115,9 +115,10 @@ a {
   margin-bottom: 2rem;
   padding-left: 6.5rem;
 }
-.scooter__img {
-  width: 57.5rem;
-  height: 37.3rem;
+.scooter__img--one {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 .scooter__title {
   position: relative;
