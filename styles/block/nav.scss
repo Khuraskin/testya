@@ -20,8 +20,14 @@
     padding-right: 12.5rem;
   }
 
+  &__menu {
+    @include tablet {
+      display: none;
+    }
+  }
+
   &__logo {
-    width: 9.5rem;
+    max-width: 9.5rem;
   }
 
   &__list {

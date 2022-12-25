@@ -7,19 +7,40 @@
     border-radius: 1.1rem;
     line-height: 2.4rem;
     border: 0.06rem solid transparent;
-    padding: 0.25rem 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__download {
     color: #fff;
     font-size: 1.25rem;
     font-weight: 700;
+    padding: 0.5rem 1.8rem;
   }
+
+  &__download {
+    @include tablet {
+     padding: 0px 36px 2px;
+     font-size: 1rem;
+     border-radius: 0.75rem;
+    }
+  }
+
   &__application {
     width: 22.6rem;
     height: 5rem;
     line-height: 4.4rem;
     margin-bottom: 5.5rem;
+  }
+
+  &__application {
+    @include tablet {
+      width: 14.6rem;
+      height: 3rem;
+      line-height: 4.4rem;
+      margin-bottom: 5.5rem;
+    }
   }
 
   &__primary {
